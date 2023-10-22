@@ -1,33 +1,110 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-
+<html lang="en">
 <head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
-
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
-
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
-
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corporate Landing Page</title>
 </head>
-
 <body>
-  <!--
+    <header>
+        <div class="logo">
+            <img src="./images/cool.jpg" >
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <img src="./images/it.jpg">
+            <h1>ApexSynergy</h1>
+        </section>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+        <section class="content" id="about">
+            <h2>About Us</h2>
+            <p>
+              At ApexSynergy, we are more than just an IT company; we are your trusted partner in navigating the ever-evolving digital landscape. With a rich history of technological innovation and a team of passionate experts, we deliver tailored IT solutions that empower businesses and organizations to thrive in the digital age.
+            </p>
+        </section>
 
-  -->
-  <h1>Assignment 02</h1>
+        <section class="content" id="services">
+            <h2>Our Services</h2>
+            <p>
+              At ApecSynergy, we offer a comprehensive suite of IT services, including:
+            </p>
+            <ul>
+                <li> IT Consulting: Whether you're looking for strategic IT planning, infrastructure design, or security assessments, our consultants are here to help.</li>
+                <li>Software Development: From custom software solutions to mobile apps, we have the expertise to bring your ideas to life.</li>
+                <li>Cybersecurity: Protecting your digital assets is critical in today's world. We offer advanced security solutions to safeguard your business.</li>
+            </ul>
+        </section>
+
+        <section class="content" id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"I had a great experience with this company. Their services are top-notch, and the team is highly professional."</p>
+                <cite>- John Doe, CEO</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Outstanding service and exceptional attention to detail. I highly recommend them!"</p>
+                <cite>- Jane Smith, CFO</cite>
+            </blockquote>
+        </section>
+
+        <section class="content" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+                <li>
+                    <h3>How do I request a quote?</h3>
+                    <p>Getting a quote is easy! Just visit our <a href="#contact">Contact</a> page and fill out the form with your project details.</p>
+                </li>
+                <li>
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept various payment methods, including credit cards and bank transfers. Contact our finance department for more information.</p>
+                </li>
+                <li>
+                    <h3>Do you offer ongoing support?</h3>
+                    <p>Yes, we provide ongoing support to ensure our clients' satisfaction. Contact our support team for assistance.</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="cta">
+            <h2>Get Started Today</h2>
+            <p>
+                Contact us to begin your journey with us at ApexSynergy as we continue to explore new frontiers of technology and collaborate with you to achieve your business objectives. Together, we can drive innovation, efficiency, and success in the digital era. Experience the power of synergy with ApexSynergy.
+            </p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="./images/cool.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2023 ApexSynergy</p>
+    </footer>
 </body>
-
 </html>
+
+  <!-- Citation: chatgbt : for the name and "abous us" paragraph
+    tutorial 04 , 05 
+    youtube video: https://www.youtube.com/watch?v=7IaqdnU44rQ. -->
+
